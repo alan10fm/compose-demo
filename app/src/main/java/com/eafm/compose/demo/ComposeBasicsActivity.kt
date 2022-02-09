@@ -26,7 +26,7 @@ import androidx.compose.ui.unit.dp
 import com.eafm.compose.demo.ui.data.SampleData
 import com.eafm.compose.demo.ui.theme.ComposeDemoTheme
 
-class MainActivity : AppCompatActivity() {
+class ComposeBasicsActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
