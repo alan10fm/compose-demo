@@ -2,4 +2,10 @@
     <string name="app_name">ComposeDemo</string>
     <string name="title_activity_main2">MainActivity2</string>
     <string name="title_activity_code_labs_compose_basics">CodeLabsComposeBasicsActivity</string>
+    <string name="title_activity_layout_compose">LayoutComposeActivity</string>
+    <string name="title_activity_scaffold">ScaffoldActivity</string>
+    <string name="title_activity_list">ListActivity</string>
+    <string name="title_activity_custom_layout">CustomLayoutActivity</string>
+    <string name="title_activity_grid">GridActivity</string>
+    <string name="title_activity_constraint_layout">ConstraintLayoutActivity</string>
 </resources>

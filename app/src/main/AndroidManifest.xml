@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.eafm.compose.demo">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -10,10 +12,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ComposeDemo">
         <activity
-            android:name=".CodeLabsComposeBasicsActivity"
+            android:name=".ConstraintLayoutActivity"
             android:exported="true"
-            android:label="@string/title_activity_code_labs_compose_basics"
-            android:theme="@style/Theme.ComposeDemo">
+            android:label="@string/title_activity_constraint_layout"
+            android:theme="@style/Theme.ComposeDemo" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -21,8 +23,39 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".GridActivity"
+            android:exported="true"
+            android:label="@string/title_activity_grid"
+            android:theme="@style/Theme.ComposeDemo">
+        </activity>
+        <activity
+            android:name=".CustomLayoutActivity"
+            android:exported="true"
+            android:label="@string/title_activity_custom_layout"
+            android:theme="@style/Theme.ComposeDemo"></activity>
+        <activity
+            android:name=".ListActivity"
+            android:exported="true"
+            android:label="@string/title_activity_list"
+            android:theme="@style/Theme.ComposeDemo" />
+        <activity
+            android:name=".ScaffoldActivity"
+            android:exported="true"
+            android:label="@string/title_activity_scaffold"
+            android:theme="@style/Theme.ComposeDemo" />
+        <activity
+            android:name=".LayoutComposeActivity"
+            android:exported="true"
+            android:label="@string/title_activity_layout_compose"
+            android:theme="@style/Theme.ComposeDemo" />
+        <activity
+            android:name=".CodeLabsComposeBasicsActivity"
+            android:exported="true"
+            android:label="@string/title_activity_code_labs_compose_basics"
+            android:theme="@style/Theme.ComposeDemo" />
+        <activity
             android:name=".ComposeBasicsActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
     </application>
 
 </manifest>
